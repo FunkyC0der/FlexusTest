@@ -6,5 +6,6 @@ namespace FlexusTest.Cameras
   {
     void ActivateCamera(CameraType type);
     void SetCameraTarget(CameraType type, Transform target);
+    Transform GetMainCameraTransform();
   }
 }

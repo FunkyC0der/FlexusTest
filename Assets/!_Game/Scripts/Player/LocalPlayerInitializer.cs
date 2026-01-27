@@ -3,7 +3,7 @@ using Sisus.Init;
 using UnityEngine;
 using CameraType = FlexusTest.Cameras.CameraType;
 
-namespace FlexusTest.Characters
+namespace FlexusTest.Player
 {
   public class LocalPlayerInitializer : MonoBehaviour<ICameraService>
   {

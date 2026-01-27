@@ -20,28 +20,31 @@ namespace FlexusTest.Cameras
 
     public void ActivateCamera(CameraType type)
     {
-      foreach (CameraInfo camera in _cameras)
+      foreach (CameraInfo cameraInfo in _cameras)
       {
-        if (camera.Type == type)
+        if (cameraInfo.Type == type)
         {
-          camera.Camera.Priority = 1;
-          _camera = camera;
+          cameraInfo.Camera.Priority = 1;
+          _camera = cameraInfo;
         }
         else
-          camera.Camera.Priority = 0;
+          cameraInfo.Camera.Priority = 0;
       }
     }
 
     public void SetCameraTarget(CameraType type, Transform target)
     {
-      CameraInfo camera = Array.Find(_cameras, item => item.Type == type);
-      if (camera == null)
+      CameraInfo cameraInfo = Array.Find(_cameras, item => item.Type == type);
+      if (cameraInfo == null)
       {
         Debug.LogWarning($"Failed to Set Camera Target. Camera not found: {type}");
         return;
       }      
       
-      camera.Camera.Target.TrackingTarget = target;
+      cameraInfo.Camera.Target.TrackingTarget = target;
     }
+
+    public Transform GetMainCameraTransform() => 
+      Camera.main.transform;
   }
 }
