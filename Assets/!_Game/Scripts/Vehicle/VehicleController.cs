@@ -1,0 +1,119 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace FlexusTest.Vehicle
+{
+  public class VehicleController : MonoBehaviour, IVehicle
+  {
+    [Serializable]
+    private class Wheel
+    {
+      public WheelCollider Collider;
+      public Transform Mesh;
+      public bool IsMotor;
+      public bool IsSteering;
+    }
+
+    [SerializeField]
+    private List<Wheel> _wheels;
+
+    [SerializeField]
+    private float _motorForce = 1000;
+
+    [SerializeField]
+    private float _maxSteerAngle = 30;
+
+    [SerializeField]
+    private float _brakeForce = 2000;
+
+    [SerializeField]
+    private Transform _driverExitPoint;
+
+    [Header("Vehicle Input")]
+    [SerializeField]
+    private Vector2 _moveInput = Vector2.zero;
+
+    [SerializeField]
+    private bool _brakeIsPressed;
+
+    private bool _isFree = true;
+
+    public event Action OnEnter;
+    public event Action OnExit;
+
+    public bool IsFree() =>
+      _isFree;
+
+    public void SetIsFree(bool isFree) =>
+      _isFree = isFree;
+
+    public void Enter()
+    {
+      SetIsFree(false);
+      OnEnter?.Invoke();
+    }
+
+    public void Exit()
+    {
+      SetIsFree(true);
+      
+      SetMoveInput(Vector2.zero);
+      SetBrakeIsPressed(false);
+      
+      OnExit?.Invoke();
+    }
+
+    public void Enable() =>
+      enabled = true;
+
+    public void Disable() =>
+      enabled = false;
+
+    public void SetMoveInput(Vector2 input) =>
+      _moveInput = input;
+
+    public void SetBrakeIsPressed(bool isPressed) =>
+      _brakeIsPressed = isPressed;
+
+    public Vector3 GetDriverExitPosition() =>
+      _driverExitPoint.position;
+
+    public Transform GetTransform() =>
+      transform;
+
+    void FixedUpdate()
+    {
+      bool isAccelerating = Mathf.Abs(_moveInput.y) > 0;
+      float brakeForce = _brakeIsPressed ? _brakeForce : 0;
+
+      foreach (Wheel wheel in _wheels)
+      {
+        if (wheel.IsMotor)
+          wheel.Collider.motorTorque = _moveInput.y * _motorForce;
+
+        if (wheel.IsSteering)
+          wheel.Collider.steerAngle = _moveInput.x * _maxSteerAngle;
+
+        UpdateWheelBrakeForce(wheel, brakeForce, isAccelerating);
+        UpdateWheelMeshTransform(wheel);
+      }
+    }
+
+    private void UpdateWheelBrakeForce(Wheel wheel, float brakeForce, bool isAccelerating)
+    {
+      if (wheel.IsMotor && !isAccelerating)
+        brakeForce += _motorForce;
+
+      wheel.Collider.brakeTorque = brakeForce;
+    }
+
+    private static void UpdateWheelMeshTransform(Wheel wheel)
+    {
+      wheel.Collider.GetWorldPose(out Vector3 pos, out Quaternion quat);
+
+      wheel.Mesh.position = pos;
+      wheel.Mesh.rotation = quat;
+    }
+  }
+}
