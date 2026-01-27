@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace FlexusTest.Vehicle
 {
@@ -14,6 +15,9 @@ namespace FlexusTest.Vehicle
       public bool IsMotor;
       public bool IsSteering;
     }
+
+    public UnityEvent OnDriverEnter;
+    public UnityEvent OnDriverExit;
 
     [SerializeField]
     private List<Wheel> _wheels;
@@ -39,9 +43,6 @@ namespace FlexusTest.Vehicle
 
     private bool _isFree = true;
 
-    public event Action OnEnter;
-    public event Action OnExit;
-
     public bool IsFree() =>
       _isFree;
 
@@ -51,7 +52,7 @@ namespace FlexusTest.Vehicle
     public void Enter()
     {
       SetIsFree(false);
-      OnEnter?.Invoke();
+      OnDriverEnter?.Invoke();
     }
 
     public void Exit()
@@ -61,14 +62,8 @@ namespace FlexusTest.Vehicle
       SetMoveInput(Vector2.zero);
       SetBrakeIsPressed(false);
       
-      OnExit?.Invoke();
+      OnDriverExit?.Invoke();
     }
-
-    public void Enable() =>
-      enabled = true;
-
-    public void Disable() =>
-      enabled = false;
 
     public void SetMoveInput(Vector2 input) =>
       _moveInput = input;

@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5994770097559044588
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_Name
+      value: Character_Network
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338568500211878657, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215077466947829589, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      propertyPath: _autoInit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3588341315998596979}
+    - targetCorrespondingSourceObject: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4977618785600509008}
+    - targetCorrespondingSourceObject: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3797570888490110372}
+    - targetCorrespondingSourceObject: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 744409907144519621}
+  m_SourcePrefab: {fileID: 100100000, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+--- !u!114 &3981409182045806475 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7237703699235446375, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5563bc1b78f4450a5f5eb2305fa072e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Character.CharacterGravityComponent
+--- !u!95 &4163862517354856545 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7708105660875145613, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4683921901039386486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1310848222293130906, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3588341315998596979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 3524102876
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &4977618785600509008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.Components.NetworkTransform
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkTransformExpanded: 0
+  AutoOwnerAuthorityTickOffset: 1
+  PositionInterpolationType: 0
+  RotationInterpolationType: 0
+  ScaleInterpolationType: 0
+  PositionLerpSmoothing: 1
+  PositionMaxInterpolationTime: 0.1
+  RotationLerpSmoothing: 1
+  RotationMaxInterpolationTime: 0.1
+  ScaleLerpSmoothing: 1
+  ScaleMaxInterpolationTime: 0.1
+  AuthorityMode: 1
+  TickSyncChildren: 0
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 0
+  SyncScaleY: 0
+  SyncScaleZ: 0
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  SwitchTransformSpaceWhenParented: 0
+  Interpolate: 1
+  SlerpPosition: 0
+--- !u!114 &3797570888490110372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0727d5ae3244e3b569694d3912374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.Components.NetworkAnimator
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkAnimatorExpanded: 0
+  AuthorityMode: 1
+  m_Animator: {fileID: 4163862517354856545}
+  TransitionStateInfoList: []
+  AnimatorParameterEntries:
+    ParameterEntries:
+    - name: Speed
+      NameHash: -823668238
+      Synchronize: 1
+      ParameterType: 1
+    - name: IsDriving
+      NameHash: -175021536
+      Synchronize: 1
+      ParameterType: 4
+  AnimatorParametersExpanded: 0
+--- !u!114 &744409907144519621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d5c55c3fb74ce187c15d82066d4224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Network.NetworkOwnerChangedTrigger
+  ShowTopMostFoldoutHeaderGroup: 1
+  OnOwnershipGained:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7588360020891909817}
+        m_TargetAssemblyTypeName: FlexusTest.Player.LocalPlayerInitializer, Assembly-CSharp
+        m_MethodName: Init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnOwnershipLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7753518980983905415}
+        m_TargetAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7477625919585397386}
+        m_TargetAssemblyTypeName: FlexusTest.Character.CharacterMover, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3981409182045806475}
+        m_TargetAssemblyTypeName: FlexusTest.Character.CharacterGravityComponent,
+          Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5323195730411043953}
+        m_TargetAssemblyTypeName: FlexusTest.Character.CharacterDrivingComponent,
+          Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6621592007390234348}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5323195730411043953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1940622580102905245, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079ae8d70c134a57b939012b733982ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Character.CharacterDrivingComponent
+--- !u!1 &6621592007390234348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 636464938430990080, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7477625919585397386 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3815796295407250278, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e01288a29dd4283aa109117638b7ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Character.CharacterMover
+--- !u!114 &7588360020891909817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4215077466947829589, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683921901039386486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543909fd905a48ca891892d0f49b1947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.LocalPlayerInitializer
+--- !u!143 &7753518980983905415 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 4083563966418083179, guid: 15662aacfcd614dedb60cd0eadfa6c71, type: 3}
+  m_PrefabInstance: {fileID: 5994770097559044588}
+  m_PrefabAsset: {fileID: 0}
