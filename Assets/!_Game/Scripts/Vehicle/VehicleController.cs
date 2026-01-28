@@ -77,7 +77,7 @@ namespace FlexusTest.Vehicle
     public Transform GetTransform() =>
       transform;
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
       bool isAccelerating = Mathf.Abs(_moveInput.y) > 0;
       float brakeForce = _brakeIsPressed ? _brakeForce : 0;

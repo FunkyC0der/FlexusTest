@@ -7,9 +7,13 @@ namespace FlexusTest.Network
   public class NetworkService : MonoBehaviour, INetworkService
   {
     public event Action OnLocalClientStarted;
+    public event Action<ulong> OnClientConnected;
 
-    private void Start() => 
+    private void Start()
+    {
       NetworkManager.Singleton.OnClientStarted += OnLocalClientStarted;
+      NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
+    }
 
     public void StartHost() => 
       NetworkManager.Singleton.StartHost();
