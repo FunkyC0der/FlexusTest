@@ -49,7 +49,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
@@ -57,23 +65,67 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7223252433206757513}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6972823206497137840}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7223252433206757513}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateIsFreeOnOwner
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RequestOwnership
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateIsFreeOnOwner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkVehicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FlexusTest.Network.NetworkOwnershipHelper, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkVehicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064227670118182377, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
@@ -84,6 +136,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 7027488988029420786}
     - targetCorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6036279443311946246}
@@ -96,6 +151,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6972823206497137840}
+    - targetCorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7223252433206757513}
     - targetCorrespondingSourceObject: {fileID: 1016143029652498175, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6388974842477589592}
@@ -165,6 +223,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
   m_PrefabInstance: {fileID: 5651628122918690217}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7027488988029420786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112731546507540003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0223ac4c76e8ddf46bd6229b84c25763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: InitArgs::Sisus.Init.Internal.Services
+  providesServices:
+  - service: {fileID: 5965864281445511232}
+    definingType:
+      scriptAssetGuid: add5cc7acefd4c9a9052258850f14fe7
+      TypeNameAndAssembly: FlexusTest.Vehicle.IVehicle, Assembly-CSharp
+  toClients: 1
 --- !u!114 &6036279443311946246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +372,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7223252433206757513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112731546507540003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0b7746739e43019b77d4a95962c7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.NetworkVehicleController
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!1 &3352031787501383609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6983485376576582160, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}

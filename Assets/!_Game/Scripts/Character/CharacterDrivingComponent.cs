@@ -86,6 +86,9 @@ namespace FlexusTest.Character
 
     private void EnterToVehicle(IVehicle vehicle)
     {
+        if (vehicle == null)
+            return;
+        
         _drivingVehicle = vehicle;
         _drivingVehicle.Enter();
         
@@ -114,19 +117,19 @@ namespace FlexusTest.Character
     }
 
     private void OnEnterVehicleAction() => 
-        EnterToVehicle(GetClosestVehicle());
+        EnterToVehicle(TryGetClosestFreeVehicle());
 
     private void OnExitVehicleAction() => 
         ExitFromVehicle();
 
-    private IVehicle GetClosestVehicle()
+    private IVehicle TryGetClosestFreeVehicle()
     {
         IVehicle vehicle = null;
         float closestDistance = float.MaxValue;
         foreach (IVehicle vehicleToEnter in _vehiclesToEnter)
         {
             float distance = Vector3.Distance(transform.position, vehicleToEnter.GetTransform().position);
-            if (distance < closestDistance)
+            if (distance < closestDistance && vehicleToEnter.IsFree())
             {
                 closestDistance = distance;
                 vehicle = vehicleToEnter;

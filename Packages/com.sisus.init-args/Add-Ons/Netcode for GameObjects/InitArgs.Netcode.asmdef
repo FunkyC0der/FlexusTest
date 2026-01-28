@@ -1,0 +1,23 @@
+{
+    "name": "InitArgs.Netcode",
+    "rootNamespace": "",
+    "references": [
+        "InitArgs",
+        "Unity.Netcode.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.netcode.gameobjects",
+            "expression": "",
+            "define": "NETCODE_FOR_GAMEOBJECTS"
+        }
+    ],
+    "noEngineReferences": false
+}
