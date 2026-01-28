@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 
 namespace FlexusTest.Vehicle
 {
   public class WheelController : MonoBehaviour
   {
+    public Action<bool> OnTrailVFXEmittingChanged;
+    
     public WheelCollider Collider;
     public Transform Model;
     public TrailRenderer TrailVFX;
@@ -14,8 +17,15 @@ namespace FlexusTest.Vehicle
       UpdateTrailVFX();
     }
 
-    private void UpdateTrailVFX() => 
-      TrailVFX.emitting = Collider.isGrounded && Collider.brakeTorque > 0;
+    private void UpdateTrailVFX()
+    {
+      bool needEmit = Collider.isGrounded && Collider.brakeTorque > 0;
+      if(needEmit == TrailVFX.emitting)
+        return;
+      
+      TrailVFX.emitting = needEmit;
+      OnTrailVFXEmittingChanged?.Invoke(needEmit);
+    }
 
     private void UpdateModelTransform()
     {

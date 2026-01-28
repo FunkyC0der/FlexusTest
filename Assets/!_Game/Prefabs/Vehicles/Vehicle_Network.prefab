@@ -128,9 +128,105 @@ PrefabInstance:
       propertyPath: OnDriverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8473607108518581518}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestChangeTrailVFXEmittingNotOwner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkWheelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334847273733135609, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8473607108518581518}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestChangeTrailVFXEmittingNotOwner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkWheelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635876704299182885, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8473607108518581518}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestChangeTrailVFXEmittingNotOwner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkWheelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663075840954550294, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       propertyPath: m_Name
       value: Vehicle_Network
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8473607108518581518}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestChangeTrailVFXEmittingNotOwner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FlexusTest.Vehicle.NetworkWheelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681686758854123899, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      propertyPath: OnTrailVFXEmittingChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -154,15 +250,27 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7223252433206757513}
+    - targetCorrespondingSourceObject: {fileID: 4263548533962343808, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1571093986848015308}
     - targetCorrespondingSourceObject: {fileID: 1016143029652498175, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6388974842477589592}
+    - targetCorrespondingSourceObject: {fileID: 8203012724628912130, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8706423141611964046}
     - targetCorrespondingSourceObject: {fileID: 4965164585760349053, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6826582407323676055}
+    - targetCorrespondingSourceObject: {fileID: 4600605214828622428, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 332593759454045567}
     - targetCorrespondingSourceObject: {fileID: 786327215006601507, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6034920325516577883}
+    - targetCorrespondingSourceObject: {fileID: 6186653471796679023, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8473607108518581518}
     - targetCorrespondingSourceObject: {fileID: 6983485376576582160, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8291708856329491302}
@@ -218,6 +326,24 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!1 &1996771769923259590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6186653471796679023, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+  m_PrefabInstance: {fileID: 5651628122918690217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8473607108518581518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996771769923259590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a224fdd8cdef49b18829d19b23099e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.NetworkWheelController
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!1 &2112731546507540003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5998640704828140426, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
@@ -253,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 4028422400
+  GlobalObjectIdHash: 977196099
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -436,6 +562,24 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!1 &4591535582872528299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8203012724628912130, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+  m_PrefabInstance: {fileID: 5651628122918690217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8706423141611964046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4591535582872528299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a224fdd8cdef49b18829d19b23099e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.NetworkWheelController
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!1 &4644492585727966038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1016143029652498175, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
@@ -549,3 +693,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94da7c6862d4c939b0715aeb981fe46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.VehicleController
+--- !u!1 &8193806686591807477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4600605214828622428, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+  m_PrefabInstance: {fileID: 5651628122918690217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &332593759454045567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8193806686591807477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a224fdd8cdef49b18829d19b23099e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.NetworkWheelController
+  ShowTopMostFoldoutHeaderGroup: 1
+--- !u!1 &8450361593368909865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4263548533962343808, guid: 0be89633b06f148bd94ace6cf8e64c35, type: 3}
+  m_PrefabInstance: {fileID: 5651628122918690217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571093986848015308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8450361593368909865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a224fdd8cdef49b18829d19b23099e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.NetworkWheelController
+  ShowTopMostFoldoutHeaderGroup: 1
