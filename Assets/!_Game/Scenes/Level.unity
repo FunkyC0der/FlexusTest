@@ -1965,30 +1965,6 @@ PrefabInstance:
       propertyPath: m_ControllerManager.Controllers.Array.data[1].Input.InputAction
       value: 
       objectReference: {fileID: 245871891}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4613976
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.0017622
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9853246
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.17069124
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 2.3505565e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346370462792149245, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -4.0719508e-16
-      objectReference: {fileID: 0}
     - target: {fileID: 2066187881500830376, guid: 7218b8997ddee43b2a7898530b705929, type: 3}
       propertyPath: providesServices.Array.size
       value: 3
