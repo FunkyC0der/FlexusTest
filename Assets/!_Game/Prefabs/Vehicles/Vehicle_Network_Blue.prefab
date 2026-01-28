@@ -67,6 +67,17 @@ WheelCollider:
   m_CorrespondingSourceObject: {fileID: 4361050436200422353, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
   m_PrefabInstance: {fileID: 1861210705868015163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4202187429512196367 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2559577811824506676, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
+  m_PrefabInstance: {fileID: 1861210705868015163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
 --- !u!4 &4207178844043942717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2573454899441163526, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
@@ -82,11 +93,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2829728708526353114, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
   m_PrefabInstance: {fileID: 1861210705868015163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4513350026750215891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2843735820032573672, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
+  m_PrefabInstance: {fileID: 1861210705868015163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
 --- !u!146 &5449790139707771141 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 5941886200672390974, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
   m_PrefabInstance: {fileID: 1861210705868015163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5787936614150050364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5298125326064210951, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
+  m_PrefabInstance: {fileID: 1861210705868015163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
 --- !u!4 &6094114247356272594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5568417094136728041, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
@@ -102,6 +135,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7587265514701365380, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
   m_PrefabInstance: {fileID: 1861210705868015163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8385559287149574993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7893443422268030314, guid: 17de1fb10e75e45eea3df5369dfecc09, type: 3}
+  m_PrefabInstance: {fileID: 1861210705868015163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
 --- !u!1001 &4927476896946525293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186,9 +230,25 @@ PrefabInstance:
       propertyPath: _wheels.Array.data[3].Collider
       value: 
       objectReference: {fileID: 5449790139707771141}
+    - target: {fileID: 5965864281445511232, guid: 8f8d75d176af74aa7877200d83415625, type: 3}
+      propertyPath: _wheels.Array.data[0].Controller
+      value: 
+      objectReference: {fileID: 4513350026750215891}
+    - target: {fileID: 5965864281445511232, guid: 8f8d75d176af74aa7877200d83415625, type: 3}
+      propertyPath: _wheels.Array.data[1].Controller
+      value: 
+      objectReference: {fileID: 8385559287149574993}
+    - target: {fileID: 5965864281445511232, guid: 8f8d75d176af74aa7877200d83415625, type: 3}
+      propertyPath: _wheels.Array.data[2].Controller
+      value: 
+      objectReference: {fileID: 5787936614150050364}
+    - target: {fileID: 5965864281445511232, guid: 8f8d75d176af74aa7877200d83415625, type: 3}
+      propertyPath: _wheels.Array.data[3].Controller
+      value: 
+      objectReference: {fileID: 4202187429512196367}
     - target: {fileID: 6036279443311946246, guid: 8f8d75d176af74aa7877200d83415625, type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 3695096845
+      value: 565299008
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

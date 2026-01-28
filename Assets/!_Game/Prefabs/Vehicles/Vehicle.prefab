@@ -112,20 +112,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _wheels:
-  - Collider: {fileID: 4293163911692568512}
-    Mesh: {fileID: 2641165504505594135}
+  - Controller: {fileID: 2334847273733135609}
     IsMotor: 1
     IsSteering: 1
-  - Collider: {fileID: 8172273577396222530}
-    Mesh: {fileID: 7951826806483926165}
+  - Controller: {fileID: 7681686758854123899}
     IsMotor: 1
     IsSteering: 1
-  - Collider: {fileID: 4568876571488399388}
-    Mesh: {fileID: 2329705522666649291}
+  - Controller: {fileID: 5663075840954550294}
     IsMotor: 0
     IsSteering: 0
-  - Collider: {fileID: 6153082110822322991}
-    Mesh: {fileID: 5356763789025089016}
+  - Controller: {fileID: 2635876704299182885}
     IsMotor: 0
     IsSteering: 0
   _motorForce: 3000
@@ -303,48 +299,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
---- !u!4 &2329705522666649291 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6779726377364429334, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
+--- !u!114 &2334847273733135609 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6784005254474084388, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
   m_PrefabInstance: {fileID: 9098023228968316125}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
 --- !u!4 &2475172742392293298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6636968374925331311, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
   m_PrefabInstance: {fileID: 9098023228968316125}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2641165504505594135 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6549894000662998474, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
+--- !u!114 &2635876704299182885 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6545463130897663992, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
   m_PrefabInstance: {fileID: 9098023228968316125}
   m_PrefabAsset: {fileID: 0}
---- !u!146 &4293163911692568512 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 5032431978689784605, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
+--- !u!114 &5663075840954550294 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3518967815532569803, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
   m_PrefabInstance: {fileID: 9098023228968316125}
   m_PrefabAsset: {fileID: 0}
---- !u!146 &4568876571488399388 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 4694231735951629505, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController
+--- !u!114 &7681686758854123899 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1502089581292080550, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
   m_PrefabInstance: {fileID: 9098023228968316125}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5356763789025089016 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3753090189554923813, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
-  m_PrefabInstance: {fileID: 9098023228968316125}
-  m_PrefabAsset: {fileID: 0}
---- !u!146 &6153082110822322991 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 3109322642554404850, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
-  m_PrefabInstance: {fileID: 9098023228968316125}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7951826806483926165 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1159742556700905544, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
-  m_PrefabInstance: {fileID: 9098023228968316125}
-  m_PrefabAsset: {fileID: 0}
---- !u!146 &8172273577396222530 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 1092989776927889055, guid: 6b069ba2345ec4bdfaeefa4a3f4fde66, type: 3}
-  m_PrefabInstance: {fileID: 9098023228968316125}
-  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0606c45a60440259f1da656a068b534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlexusTest.Vehicle.WheelController

@@ -10,8 +10,7 @@ namespace FlexusTest.Vehicle
     [Serializable]
     private class Wheel
     {
-      public WheelCollider Collider;
-      public Transform Mesh;
+      public WheelController Controller;
       public bool IsMotor;
       public bool IsSteering;
     }
@@ -42,6 +41,18 @@ namespace FlexusTest.Vehicle
     private bool _brakeIsPressed;
 
     private bool _isFree = true;
+
+    private void OnEnable()
+    {
+      foreach (Wheel wheel in _wheels) 
+        wheel.Controller.Collider.enabled = true;
+    }
+
+    private void OnDisable()
+    {
+      foreach (Wheel wheel in _wheels)
+        wheel.Controller.Collider.enabled = false;
+    }
 
     public bool IsFree() =>
       _isFree;
@@ -85,13 +96,12 @@ namespace FlexusTest.Vehicle
       foreach (Wheel wheel in _wheels)
       {
         if (wheel.IsMotor)
-          wheel.Collider.motorTorque = _moveInput.y * _motorForce;
+          wheel.Controller.Collider.motorTorque = _moveInput.y * _motorForce;
 
         if (wheel.IsSteering)
-          wheel.Collider.steerAngle = _moveInput.x * _maxSteerAngle;
+          wheel.Controller.Collider.steerAngle = _moveInput.x * _maxSteerAngle;
 
         UpdateWheelBrakeForce(wheel, brakeForce, isAccelerating);
-        UpdateWheelMeshTransform(wheel);
       }
     }
 
@@ -100,15 +110,7 @@ namespace FlexusTest.Vehicle
       if (wheel.IsMotor && !isAccelerating)
         brakeForce += _motorForce;
 
-      wheel.Collider.brakeTorque = brakeForce;
-    }
-
-    private static void UpdateWheelMeshTransform(Wheel wheel)
-    {
-      wheel.Collider.GetWorldPose(out Vector3 pos, out Quaternion quat);
-
-      wheel.Mesh.position = pos;
-      wheel.Mesh.rotation = quat;
+      wheel.Controller.Collider.brakeTorque = brakeForce;
     }
   }
 }
