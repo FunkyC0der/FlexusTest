@@ -45,13 +45,13 @@ namespace FlexusTest.Vehicle
     private void OnEnable()
     {
       foreach (Wheel wheel in _wheels) 
-        wheel.Controller.Collider.enabled = true;
+        wheel.Controller.enabled = true;
     }
 
     private void OnDisable()
     {
       foreach (Wheel wheel in _wheels)
-        wheel.Controller.Collider.enabled = false;
+        wheel.Controller.enabled = false;
     }
 
     public bool IsFree() =>
