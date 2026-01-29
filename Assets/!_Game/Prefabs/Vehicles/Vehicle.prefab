@@ -86,7 +86,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 0
+  m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -124,9 +124,9 @@ MonoBehaviour:
   - Controller: {fileID: 2635876704299182885}
     IsMotor: 0
     IsSteering: 0
-  _motorForce: 3000
+  _motorForce: 1000
   _maxSteerAngle: 30
-  _brakeForce: 6000
+  _brakeForce: 1000
   _driverExitPoint: {fileID: 4271058214437380239}
   _moveInput: {x: 0, y: 0}
   _brakeIsPressed: 0
